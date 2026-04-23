@@ -1,0 +1,225 @@
+[
+  {
+    "id": "h1",
+    "name": "Mövenpick Resort & Marine Spa",
+    "city": "Sousse",
+    "price": 120,
+    "stars": 5,
+    "rating": 4.5,
+    "photos": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=800"
+    ],
+    "description": "Un complexe hôtelier luxueux à Sousse avec spa et plage privée.",
+    "categories": [
+      "Luxe",
+      "Bord de mer"
+    ],
+    "services": [
+      "Piscine",
+      "Spa",
+      "WiFi gratuit",
+      "Parking"
+    ],
+    "location": "Sousse, Zone Touristique"
+  },
+  {
+    "id": "h2",
+    "name": "Four Seasons Hotel",
+    "city": "Tunis",
+    "price": 250,
+    "stars": 5,
+    "rating": 4.8,
+    "photos": [
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=800"
+    ],
+    "description": "Hôtel de luxe face à la mer avec un service impeccable à Gammarth.",
+    "categories": [
+      "Luxe",
+      "Romantique"
+    ],
+    "services": [
+      "Piscine",
+      "Spa",
+      "Salle de sport",
+      "Service en chambre",
+      "WiFi gratuit"
+    ],
+    "location": "Gammarth, Tunis"
+  },
+  {
+    "id": "h3",
+    "name": "Radisson Blu Palace",
+    "city": "Médenine",
+    "price": 90,
+    "stars": 4,
+    "rating": 4.2,
+    "photos": [
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=800"
+    ],
+    "description": "Station balnéaire orientale magnifique sur l'île de Djerba.",
+    "categories": [
+      "Famille",
+      "Bord de mer"
+    ],
+    "services": [
+      "Piscine",
+      "Club enfants",
+      "WiFi gratuit"
+    ],
+    "location": "Plage de Sidi Mahrez, Djerba"
+  },
+  {
+    "id": "h4",
+    "name": "El Mouradi Palace",
+    "city": "Sousse",
+    "price": 60,
+    "stars": 4,
+    "rating": 3.8,
+    "photos": [
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=800"
+    ],
+    "description": "Grand hôtel avec piscines et à proximité des animations à Port El Kantaoui.",
+    "categories": [
+      "Economique",
+      "Famille"
+    ],
+    "services": [
+      "Piscine",
+      "Restaurant",
+      "Animation"
+    ],
+    "location": "Port El Kantaoui, Sousse"
+  },
+  {
+    "id": "h5",
+    "name": "Dar El Jeld Hotel",
+    "city": "Tunis",
+    "price": 150,
+    "stars": 5,
+    "rating": 4.9,
+    "photos": [
+      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=800"
+    ],
+    "description": "Hôtel boutique authentique dans la médina de Tunis.",
+    "categories": [
+      "Boutique",
+      "Historique",
+      "Luxe"
+    ],
+    "services": [
+      "Spa",
+      "Restaurant",
+      "WiFi gratuit"
+    ],
+    "location": "Médina, Tunis"
+  },
+  {
+    "id": "h6",
+    "name": "The Residence Tunis",
+    "city": "Tunis",
+    "price": 280,
+    "stars": 5,
+    "rating": 4.7,
+    "photos": [
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=800"
+    ],
+    "description": "Splendeur architecturale et service raffiné à Gammarth.",
+    "categories": [
+      "Luxe",
+      "Gastronomie"
+    ],
+    "services": [
+      "Piscine",
+      "Golf",
+      "Spa Thalgo"
+    ],
+    "location": "Gammarth, Tunis"
+  },
+  {
+    "id": "h7",
+    "name": "Golden Yasmin Mehari",
+    "city": "Nabeul",
+    "price": 75,
+    "stars": 4,
+    "rating": 4.1,
+    "photos": [
+      "https://images.unsplash.com/photo-1498503182468-3b51cbb6cb24?q=80&w=800"
+    ],
+    "description": "Situé au cœur de la station Yasmine Hammamet, idéal pour les loisirs.",
+    "categories": [
+      "Famille",
+      "Animation"
+    ],
+    "services": [
+      "Piscine",
+      "Plage",
+      "Tennis"
+    ],
+    "location": "Yasmine Hammamet"
+  },
+  {
+    "id": "h8",
+    "name": "Dar Hi Eco-Lodge",
+    "city": "Tozeur",
+    "price": 180,
+    "stars": 4,
+    "rating": 4.6,
+    "photos": [
+      "https://images.unsplash.com/photo-1596436889106-be35e843f974?q=80&w=800"
+    ],
+    "description": "Une expérience unique au bord du désert, architecture moderne et bio.",
+    "categories": [
+      "Ecologique",
+      "Design"
+    ],
+    "services": [
+      "Hammam",
+      "Cuisine locale",
+      "Yoga"
+    ],
+    "location": "Tozeur"
+  },
+  {
+    "id": "h9",
+    "name": "Iberostar Selection Diar El Andalous",
+    "city": "Sousse",
+    "price": 110,
+    "stars": 5,
+    "rating": 4.4,
+    "photos": [
+      "https://images.unsplash.com/photo-1455587734955-081b22074882?q=80&w=800"
+    ],
+    "description": "Un jardin luxueux au bord de la mer Méditerranée.",
+    "categories": [
+      "Luxe",
+      "Famille"
+    ],
+    "services": [
+      "All-inclusive",
+      "Parc aquatique",
+      "WiFi"
+    ],
+    "location": "Port El Kantaoui"
+  },
+  {
+    "id": "h10",
+    "name": "Hotel Continental",
+    "city": "Bizerte",
+    "price": 55,
+    "stars": 3,
+    "rating": 3.5,
+    "photos": [
+      "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=800"
+    ],
+    "description": "Hôtel historique surplombant le port de Bizerte.",
+    "categories": [
+      "Economique",
+      "Historique"
+    ],
+    "services": [
+      "Restaurant",
+      "Vue mer"
+    ],
+    "location": "Vieux Port, Bizerte"
+  }
+]

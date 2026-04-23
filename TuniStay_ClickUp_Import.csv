@@ -1,0 +1,13 @@
+Task Name,Description,Status,Priority,Due Date
+Initialize React Native CLI Project,Set up the base project using React Native CLI to replace the previous Expo setup.,Closed,High,2026-04-18
+Migrate Source Code and Assets,Transfer all TypeScript screens components and assets to the new CLI project structure.,Closed,High,2026-04-18
+Configure Native Android Build,Update build.gradle and manifest files for proper native compilation.,Closed,High,2026-04-18
+Replace Placeholder Images,Update hero images and item photos with high-quality Tunisian tourism assets.,Closed,Normal,2026-04-18
+Finalize UI/UX Design,Polish the transitions and layout for Welcome and About Us screens.,in progress,Normal,2026-04-20
+Implement Price Filter,Create a slider or input for filtering hotels and restaurants by price.,to do,Normal,2026-04-22
+Implement Service Filtering,Add a selectable list of services (WiFi Pool etc.) for advanced search.,to do,Normal,2026-04-22
+Fix Auth Navigation Loop,Ensure users are redirected to the Home screen after login and cannot return to Welcome/About via back button.,to do,High,2026-04-21
+Android Performance Testing,Run the app on multiple Android devices to ensure smooth performance and layout consistency.,to do,Normal,2026-04-25
+iOS Development Setup,Configure CocoaPods and XCode environment for native iOS builds.,to do,High,2026-04-26
+Prepare App Store Assets,Create screenshots and metadata for store listings.,to do,Normal,2026-04-30
+Production Build and Release,Generate signed bundles for Android and iOS for final deployment.,to do,High,2026-05-05
