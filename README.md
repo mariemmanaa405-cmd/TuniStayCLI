@@ -1,97 +1,77 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# 🇹🇳 TuniStay CLI
+**Explorez la Tunisie en toute liberté, même sans connexion.**
 
-# Getting Started
+TuniStay est une application mobile native développée avec **React Native CLI**, conçue pour accompagner les voyageurs à travers les trésors de la Tunisie. Que vous cherchiez un hôtel de luxe à Gammarth, un restaurant authentique dans la Médina de Tunis, ou un événement culturel à Carthage, TuniStay centralise tout au même endroit.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+![TuniStay Icon](https://github.com/mariemmanaa405-cmd/TuniStayCLI/blob/main/web/mockup.png?raw=true)
 
-## Step 1: Start Metro
+---
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+## 🚀 Fonctionnalités Clés
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+- **🌍 24 Gouvernorats** : Une base de données complète couvrant tout le territoire tunisien.
+- **📱 100% Hors-ligne** : Accédez à vos informations, favoris et itinéraires sans data ni WiFi.
+- **🏨 Catalogue Intelligent** : Filtrez les hôtels, restaurants et événements par ville, prix ou note.
+- **✈️ Planning de Voyage** : Créez votre propre itinéraire personnalisé (Timeline) jour par jour.
+- **⭐ Avis & Favoris** : Enregistrez vos lieux préférés et consultez vos recommandations locales.
 
-```sh
-# Using npm
-npm start
+---
 
-# OR using Yarn
-yarn start
-```
+## 🎨 Identité Visuelle Premium
 
-## Step 2: Build and run your app
+L'application arbore un design moderne inspiré par la Méditerranée, avec une palette de **Bleu Saphir** et **Blanc Pur**. L'icône personnalisée représente la fusion entre un marqueur de carte et une architecture hôtelière de luxe.
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+---
 
-### Android
+## 🛠️ Stack Technique
 
-```sh
-# Using npm
+- **Framework** : React Native CLI (Architecture Native)
+- **Langage** : TypeScript
+- **Navigation** : React Navigation (Stack & Tabs)
+- **Stockage** : AsyncStorage (Persistence locale offline)
+- **Icônes** : Ionicons (Vector Icons)
+
+---
+
+## 📖 Installation et Lancement
+
+### Prérequis
+- Node.js (>= 22)
+- Android Studio & SDK Android
+- Java JDK
+
+### Installation
+1. Clonez le dépôt :
+   ```bash
+   git clone https://github.com/mariemmanaa405-cmd/TuniStayCLI.git
+   ```
+2. Installez les dépendances :
+   ```bash
+   npm install
+   ```
+
+### Lancement
+Pour lancer l'application sur un émulateur ou un appareil Android :
+```bash
 npm run android
-
-# OR using Yarn
-yarn android
 ```
 
-### iOS
+---
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+## 📂 Structure du Projet
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
-
-```sh
-bundle install
+```text
+src/
+ ├── data/       # Fichiers JSON (Hotels, Restos, Events)
+ ├── screens/    # Écrans de l'interface (Home, Detail, Welcome...)
+ ├── services/   # Logique métier et accès aux données (Storage)
+ └── types/      # Définition des interfaces TypeScript
 ```
 
-Then, and every time you update your native dependencies, run:
+---
 
-```sh
-bundle exec pod install
-```
+## 🔗 Liens Utiles
+- **GitHub Repository** : [mariemmanaa405-cmd/TuniStayCLI](https://github.com/mariemmanaa405-cmd/TuniStayCLI)
+- **Suivi de projet (Trello)** : [Tableau de bord Sprints](https://trello.com/b/K0ovswr2/tunisstay)
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
-
-```sh
-# Using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
-
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
-
-## Step 3: Modify your app
-
-Now that you have successfully run the app, let's make changes!
-
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
-
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
-
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+Developed with ❤️ for Tunisia.
